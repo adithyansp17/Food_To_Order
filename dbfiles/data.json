@@ -1,0 +1,585 @@
+{
+  "restaurants": [
+    {
+      "img_path": "https://b.zmtcdn.com/data/collections/2e5c28a5fbcb2b35d84c0a498b0e1ba2_1674823998.jpg?fit=around|562.5:360&crop=562.5:360;*,*",
+      "user_id": 1,
+      "id": "1",
+      "rName": "Truffles2323",
+      "arrAddress": [],
+      "dishlist": [
+        {
+          "dName": "Biriyani",
+          "price": 170,
+          "img_path": "https://images.pexels.com/photos/2297961/pexels-photo-2297961.jpeg?cs=srgb&dl=pexels-brett-jordan-2297961.jpg&fm=jpg",
+          "isAvailable": true,
+          "id": 1
+        },
+        {
+          "dName": "Pastry",
+          "price": 120,
+          "img_path": "https://images.pexels.com/photos/2297961/pexels-photo-2297961.jpeg?cs=srgb&dl=pexels-brett-jordan-2297961.jpg&fm=jpg",
+          "isAvailable": true,
+          "id": 2
+        },
+        {
+          "dName": "Burger",
+          "price": 250,
+          "img_path": "https://images.pexels.com/photos/2297961/pexels-photo-2297961.jpeg?cs=srgb&dl=pexels-brett-jordan-2297961.jpg&fm=jpg",
+          "isAvailable": true,
+          "id": 3
+        },
+        {
+          "dName": "Steak",
+          "price": 7000,
+          "img_path": "https://images.pexels.com/photos/2297961/pexels-photo-2297961.jpeg?cs=srgb&dl=pexels-brett-jordan-2297961.jpg&fm=jpg",
+          "isAvailable": true,
+          "id": 4
+        },
+        {
+          "dName": "Soup",
+          "price": 123,
+          "img_path": "https://www.seriouseats.com/thmb/2nouHHsjM0bN1vwXMOZGUkLFsJ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__12__20171115-chicken-soup-vicky-wasik-11-80db1a04d84a43a089e0559efdddd517.jpg",
+          "isAvailable": false,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "user_id": 2,
+      "id": "2",
+      "rName": "Tonique",
+      "img_path": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Barbieri_-_ViaSophia25668.jpg/1200px-Barbieri_-_ViaSophia25668.jpg",
+      "arrAddress": [
+        {
+          "id": 3,
+          "houseno": 26,
+          "street": "ABC rd",
+          "area": "Domlur",
+          "city": "Bangalore",
+          "country": "India",
+          "pincode": 560012
+        },
+        {
+          "id": 4,
+          "houseno": 27,
+          "street": "Palmgrove rd",
+          "area": "Victoria Layout",
+          "city": "Bangalore",
+          "country": "India",
+          "pincode": 560013
+        }
+      ],
+      "dishlist": [
+        {
+          "id": 1,
+          "dName": "Biriyani",
+          "price": 170,
+          "img_path": "https://healux.in/wp-content/uploads/2020/11/ChickenBiryani.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "dName": "Pastry",
+          "price": 120,
+          "img_path": "https://theobroma.in/cdn/shop/products/RedVelvetPastry1.jpg?v=1632143810",
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "dName": "Burger",
+          "price": 250,
+          "img_path": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "dName": "Steak",
+          "price": 300,
+          "img_path": "https://food-images.files.bbci.co.uk/food/recipes/rib-eye_steak_with_61963_16x9.jpg",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "img_path": "https://skygarden.london/wp-content/uploads/2023/01/Larch-Tasting-0084-1-3840x2160.jpg",
+      "user_id": 1,
+      "id": "4",
+      "rName": "Cafe Jade",
+      "arrAddress": [
+        {
+          "houseno": 1,
+          "street": "akd",
+          "area": "area23",
+          "city": "Anirudh",
+          "country": "India",
+          "pincode": 123456,
+          "id": 1
+        }
+      ],
+      "dishlist": [
+        {
+          "dName": "Noodles",
+          "price": 456,
+          "img_path": "https://www.recipetineats.com/wp-content/uploads/2023/09/Garlic-noodles-with-egg-close-up.jpg",
+          "isAvailable": true,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "location": "Ernakulam",
+      "rName": "Ira",
+      "user_id": 0,
+      "dishlist": [],
+      "arrAddress": [
+        {
+          "id": 1,
+          "houseno": "184",
+          "street": "MA road",
+          "area": "Kothamangalam",
+          "city": "Erklm",
+          "pincode": "464894",
+          "country": "India"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "location": "Madiwala",
+      "rName": "Kannur Food",
+      "user_id": 6,
+      "dishlist": [],
+      "arrAddress": [
+        {
+          "id": 1,
+          "houseno": "945",
+          "street": "Chocolate Factory Road",
+          "area": "Madiwala",
+          "city": "Bangalore",
+          "pincode": "864645",
+          "country": "India"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "location": "DW",
+      "rName": "dD",
+      "user_id": 6,
+      "dishlist": [],
+      "arrAddress": [
+        {
+          "id": 1,
+          "houseno": "24",
+          "street": "HD",
+          "area": "CRF",
+          "city": "dv",
+          "pincode": "gt",
+          "country": "eghhg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "location": "USA",
+      "rName": "Jungle",
+      "user_id": 0,
+      "dishlist": [],
+      "arrAddress": [
+        {
+          "id": 1,
+          "houseno": "46",
+          "street": "D",
+          "area": "fac",
+          "city": "faac",
+          "pincode": "42144",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "location": "Kannur",
+      "rName": "Metro Hut",
+      "user_id": 0,
+      "dishlist": [
+        {
+          "id": 1,
+          "dName": "Biryani",
+          "price": "130",
+          "r_id": 7,
+          "img_path": "biryani.jpg"
+        }
+      ],
+      "arrAddress": [
+        {
+          "id": 1,
+          "houseno": "61",
+          "street": "2nd St",
+          "area": "Payyanur",
+          "city": "Kannur",
+          "pincode": "46844",
+          "country": "India"
+        }
+      ]
+    }
+    
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Hopkins",
+      "role": "restaurantOwner",
+      "DOB": "24/04/2001",
+      "email": "abc@xyz.com",
+      "password": "00asp00",
+      "address": {
+        "id": 1,
+        "houseno": 23,
+        "street": "Palmgrove rd",
+        "area": "Victoria Layout",
+        "city": "Bangalore",
+        "country": "India",
+        "pincode": 560010
+      },
+      "mobile": 9447416588
+    },
+    {
+      "id": "2",
+      "firstName": "James",
+      "lastName": "May",
+      "role": "user",
+      "DOB": "2/01/2002",
+      "email": "def@xyz.com",
+      "mobile": "8547416578",
+      "password": "01asp01",
+      "address": {
+        "id": 2,
+        "houseno": 24,
+        "street": "HAL rd",
+        "area": "Indiranagar",
+        "city": "Bangalore",
+        "country": "India",
+        "pincode": 560011
+      }
+    },
+    {
+      "id": "3",
+      "firstName": "Jim",
+      "lastName": "Parson",
+      "role": "admin",
+      "DOB": "12/05/2003",
+      "email": "lmn@xyz.com",
+      "mobile": "9007416578",
+      "password": "02asp02",
+      "address": {
+        "id": 3,
+        "houseno": 26,
+        "street": "ABC rd",
+        "area": "Domlur",
+        "city": "Bangalore",
+        "country": "India",
+        "pincode": 560012
+      }
+    },
+    {
+      "id": "4",
+      "firstName": "Tom",
+      "lastName": "Jerry1",
+      "role": "user",
+      "DOB": "12/05/2003",
+      "email": "jerry@xyz.com",
+      "password": "as",
+      "address": {
+        "id": 4,
+        "houseno": 26,
+        "street": "ABC rd",
+        "area": "assa",
+        "city": "Bangalore",
+        "country": "India",
+        "pincode": "561123"
+      },
+      "mobile": 7306076348
+    },
+    {
+      "id": "5",
+      "firstName": "Miti",
+      "lastName": "aa",
+      "role": "user",
+      "DOB": "12/05/2003",
+      "email": "miti@gmail.com",
+      "password": "miti",
+      "address": {
+        "id": 5,
+        "houseno": 45,
+        "street": "Palmgrove rd",
+        "area": "sfdz",
+        "city": "Bangalore",
+        "country": "India",
+        "pincode": "560010"
+      },
+      "mobile": 7306076345
+    },
+    {
+      "id": "6",
+      "firstName": "Anirudh",
+      "lastName": "Priyan",
+      "role": "user",
+      "DOB": "24-04-01",
+      "email": "abc@xyz.com",
+      "password": "asp",
+      "address": {
+        "id": 6,
+        "houseno": 1,
+        "street": "akd",
+        "area": "Victoria Layout",
+        "city": "Anirudh",
+        "country": "India",
+        "pincode": "123456"
+      },
+      "mobile": 7306076345
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "orderDate": "12/02/2001",
+      "orderAmount": 410,
+      "arrDishes": [
+        {
+          "id": 1,
+          "Name": "Biriyani",
+          "price": 170,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "Name": "Pastry",
+          "price": 120,
+          "img_path": "",
+          "isAvailable": true
+        }
+      ],
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "orderDate": "14/07/1999",
+      "orderAmount": 1500,
+      "arrDishes": [
+        {
+          "id": 3,
+          "Name": "Burger",
+          "price": 250,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "Name": "Steak",
+          "price": 300,
+          "img_path": "",
+          "isAvailable": true
+        }
+      ],
+      "quantity": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "orderDate": "18/10/2023",
+      "orderAmount": 1796,
+      "arrDishes": [
+        {
+          "id": 1,
+          "Name": "Biriyani",
+          "price": 170,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "Name": "Pastry",
+          "price": 120,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "Name": "Soup",
+          "price": 123,
+          "img_path": "",
+          "isAvailable": "true",
+          "id": 5
+        }
+      ],
+      "quantity": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "7",
+      "userId": 3,
+      "orderDate": "18/10/2023",
+      "orderAmount": 620,
+      "arrDishes": [
+        {
+          "Name": "Burger",
+          "price": 250,
+          "img_path": "",
+          "isAvailable": true,
+          "id": 3
+        },
+        {
+          "Name": "Pastry",
+          "price": 120,
+          "img_path": "",
+          "isAvailable": true,
+          "id": 2
+        }
+      ],
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "8",
+      "userId": 3,
+      "orderDate": "18/10/2023",
+      "orderAmount": 870,
+      "arrDishes": [
+        {
+          "id": 1,
+          "Name": "Biriyani",
+          "price": 170,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "Name": "Pastry",
+          "price": 120,
+          "img_path": "",
+          "isAvailable": true
+        }
+      ],
+      "quantity": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "9",
+      "userId": 2,
+      "orderDate": "18/10/2023",
+      "orderAmount": 750,
+      "arrDishes": [
+        {
+          "Name": "mandhi",
+          "price": 250,
+          "img_path": "../../assets/Images/pic1.jpg",
+          "isAvailable": "true",
+          "id": 1
+        }
+      ],
+      "quantity": [
+        3
+      ]
+    },
+    {
+      "id": "10",
+      "userId": "5",
+      "orderDate": "26/10/2023",
+      "orderAmount": 700,
+      "arrDishes": [
+        {
+          "id": 1,
+          "Name": "Biriyani",
+          "price": 170,
+          "img_path": "https://healux.in/wp-content/uploads/2020/11/ChickenBiryani.jpg",
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "Name": "Pastry",
+          "price": 120,
+          "img_path": "https://theobroma.in/cdn/shop/products/RedVelvetPastry1.jpg?v=1632143810",
+          "isAvailable": true
+        }
+      ],
+      "quantity": [
+        2,
+        3
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "Amount": 550,
+      "arrDishes": [
+        {
+          "id": 3,
+          "Name": "Burger",
+          "price": 250,
+          "img_path": "",
+          "isAvailable": true
+        },
+        {
+          "id": 4,
+          "Name": "Steak",
+          "price": 300,
+          "img_path": "",
+          "isAvailable": true
+        }
+      ],
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "Amount": 0,
+      "id": "2",
+      "arrDishes": [],
+      "quantity": []
+    },
+    {
+      "Amount": 0,
+      "id": "3",
+      "arrDishes": [],
+      "quantity": []
+    },
+    {
+      "Amount": 0,
+      "id": "4",
+      "arrDishes": [],
+      "quantity": []
+    },
+    {
+      "Amount": 0,
+      "id": "5",
+      "arrDishes": [],
+      "quantity": []
+    },
+    {
+      "Amount": 0,
+      "id": "6",
+      "arrDishes": [],
+      "quantity": []
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<form [formGroup]="addUserForm"
+    (ngSubmit)="OnSubmit(addUserForm.value)"
+    [class.error]="!addUserForm.valid && addUserForm.touched">
+
+    <div [class.error]="!addUserForm.get('firstName')?.valid && addUserForm.get('firstName')?.touched">
+      <div class="mb-3">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" formControlName="firstName" placeholder="Enter the first name">
+
+        <div *ngIf="!firstName.valid" 
+          style="color: red;" class="form_error">firstName is Invalid</div>
+  
+          <div *ngIf="firstName.hasError('required')" 
+          class="invalid-feedback">firstName is required</div>
+      </div>
+    </div>
+
+    <div [class.error]="!addUserForm.get('lastName')?.valid && addUserForm.get('lastName')?.touched">
+      <div class="mb-3">
+      <label for="lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="lastName" formControlName="lastName" placeholder="Enter the last name">
+
+      <div *ngIf="!lastName.valid" 
+        style="color: red;" class="form_error">lastName is Invalid</div>
+
+        <div *ngIf="lastName.hasError('required')" 
+        class="invalid-feedback">lastName is required</div>
+
+    </div>
+  </div>
+
+  <div [class.error]="!addUserForm.get('DOB')?.valid && addUserForm.get('DOB')?.touched">
+    <div class="mb-3">
+    <label for="DOB" class="form-label">DOB</label>
+    <input type="date" class="form-control" id="DOB" formControlName="DOB" placeholder="Enter the DOB">
+
+    <div *ngIf="!DOB.valid" 
+      style="color: red;" class="form_error">DOB is Invalid</div>
+
+      <div *ngIf="DOB.hasError('required')" 
+      class="invalid-feedback">DOB is required</div>
+
+      <div *ngIf="DOB.hasError('invalidDOB')" 
+        class="invalid-feedback">DOB Error</div>
+
+  </div>
+</div>
+      
+
+      <div [class.error]="!addUserForm.get('role')?.valid && addUserForm.get('role')?.touched">
+        <div class="mb-3">
+          <label for="role" class="form-label">Role</label>
+          <input type="text" class="form-control" id="role" formControlName="role" placeholder="Enter the role">
+  
+          <div *ngIf="!role.valid" 
+          style="color: red;" class="form_error">role is Invalid</div>
+  
+          <div *ngIf="role.hasError('required')" 
+          class="invalid-feedback">role is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('email')?.valid && addUserForm.get('email')?.touched">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" formControlName="email" placeholder="name@example.com">
+  
+          <div *ngIf="!email.valid" 
+          style="color: red;" class="form_error">email is Invalid</div>
+  
+          <div *ngIf="email.hasError('required')" 
+          class="invalid-feedback">email is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('password')?.valid && addUserForm.get('password')?.touched">
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" formControlName="password" placeholder="">
+  
+          <div *ngIf="!password.valid" 
+          style="color: red;" class="form_error">password is Invalid</div>
+  
+          <div *ngIf="password.hasError('required')" 
+          class="invalid-feedback">password is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('houseno')?.valid && addUserForm.get('houseno')?.touched">
+        <div class="mb-3">
+          <label for="houseno" class="form-label">House no.</label>
+          <input type="text" class="form-control" id="houseno" formControlName="houseno" placeholder="Enter the house no.">
+  
+          <div *ngIf="!houseno.valid" 
+          style="color: red;" class="form_error">houseno is Invalid</div>
+  
+          <div *ngIf="houseno.hasError('required')" 
+          class="invalid-feedback">houseno is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('street')?.valid && addUserForm.get('street')?.touched">
+        <div class="mb-3">
+          <label for="street" class="form-label">Street</label>
+          <input type="text" class="form-control" id="street" formControlName="street" placeholder="Enter the street">
+  
+          <div *ngIf="!street.valid" 
+          style="color: red;" class="form_error">street is Invalid</div>
+  
+          <div *ngIf="street.hasError('required')" 
+          class="invalid-feedback">street is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('area')?.valid && addUserForm.get('area')?.touched">
+        <div class="mb-3">
+          <label for="area" class="form-label">Area</label>
+          <input type="text" class="form-control" id="area" formControlName="area" placeholder="Enter the area">
+  
+          <div *ngIf="!area.valid" 
+          style="color: red;" class="form_error">area is Invalid</div>
+  
+          <div *ngIf="area.hasError('required')" 
+          class="invalid-feedback">area is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('city')?.valid && addUserForm.get('city')?.touched">
+        <div class="mb-3">
+          <label for="city" class="form-label">City</label>
+          <input type="text" class="form-control" id="city" formControlName="city" placeholder="Enter the city">
+  
+          <div *ngIf="!city.valid" 
+          style="color: red;" class="form_error">city is Invalid</div>
+  
+          <div *ngIf="city.hasError('required')" 
+          class="invalid-feedback">city is required</div>
+        </div>
+      </div>
+      
+
+      <div [class.error]="!addUserForm.get('pincode')?.valid && addUserForm.get('pincode')?.touched">
+        <div class="mb-3">
+          <label for="pincode" class="form-label">Pin code</label>
+          <input type="text" class="form-control" id="pincode" formControlName="pincode" placeholder="Enter the pincode">
+  
+          <div *ngIf="!pincode.valid" 
+          style="color: red;" class="form_error">pincode is Invalid</div>
+  
+          <div *ngIf="pincode.hasError('required')" 
+          class="invalid-feedback">pincode is required</div>
+        </div>
+      </div>
+     
+
+      <div [class.error]="!addUserForm.get('country')?.valid && addUserForm.get('country')?.touched">
+        <div class="mb-3">
+          <label for="country" class="form-label">Country</label>
+          <input type="text" class="form-control" id="country" formControlName="country" placeholder="Enter the country">
+  
+          <div *ngIf="!country.valid" 
+          style="color: red;" class="form_error">country is Invalid</div>
+  
+          <div *ngIf="country.hasError('required')" 
+          class="invalid-feedback">country is required</div>
+        </div>
+      </div>
+      
+    
+
+      <div *ngIf="!addUserForm.valid" 
+          style="color: red;" class="form_error">Form is Invalid</div>
+
+      <button type="submit" class="btn btn-dark">Submit</button>
+    
+    </form>
+  
+ 
+  
+    
+  
+      
+  
+  

@@ -1,0 +1,64 @@
+
+<form [formGroup]="updateUserForm"
+    (ngSubmit)="OnSubmit(updateUserForm.value)">
+    <div class="form-group">
+        <label class="form-label" for="id"> Select a user for Update:</label>
+        <select class="form-select" id="id" formControlName="id" (change)="onChangeType($event)">
+            <option selected>Select a value</option>
+            <option *ngFor="let u of arrUsers" [ngValue]="u.id">{{u.firstName}}</option>
+        </select>
+       
+    </div>
+    <div class="mb-3">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" formControlName="firstName" placeholder="Enter the first name">
+      </div>
+      <div class="mb-3">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" formControlName="lastName" placeholder="Enter the last name">
+      </div>
+      <div class="mb-3">
+        <label for="DOB" class="form-label">DOB</label>
+        <input type="text" class="form-control" id="DOB" formControlName="DOB" placeholder="Enter the DOB">
+      </div>
+      <div class="mb-3">
+        <label for="role" class="form-label">Role</label>
+        <input type="text" class="form-control" id="role" formControlName="role" placeholder="Enter the role">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" formControlName="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" formControlName="password" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="houseno" class="form-label">House no.</label>
+        <input type="text" class="form-control" id="houseno" formControlName="houseno" placeholder="Enter the house no.">
+      </div>
+      <div class="mb-3">
+        <label for="street" class="form-label">Street</label>
+        <input type="text" class="form-control" id="street" formControlName="street" placeholder="Enter the street">
+      </div>
+      <div class="mb-3">
+        <label for="area" class="form-label">Area</label>
+        <input type="text" class="form-control" id="area" formControlName="area" placeholder="Enter the area">
+      </div>
+      <div class="mb-3">
+        <label for="city" class="form-label">City</label>
+        <input type="text" class="form-control" id="city" formControlName="city" placeholder="Enter the city">
+      </div>
+      <div class="mb-3">
+        <label for="pincode" class="form-label">Pin code</label>
+        <input type="text" class="form-control" id="pincode" formControlName="pincode" placeholder="Enter the pincode">
+      </div>
+      <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <input type="text" class="form-control" id="country" formControlName="country" placeholder="Enter the country">
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    
+    </form>
+
+

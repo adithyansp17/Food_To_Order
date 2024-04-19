@@ -1,0 +1,26 @@
+<!-- <ol>
+    <li *ngFor="let name of arrRest">{{name}}</li>
+</ol> -->
+<!-- <div *ngFor="let r of arrRes" class="row ">
+    {{r.id}}  {{r.rName}}    {{r.user_id}}  
+ 
+    <div *ngFor="let d of r.dishlist" class="card" style="width: 18rem;" >
+        <img [src]="d.img_path" class="card-img-top" height="250" width="250">
+        <div class="card-body">
+            <h5 class="card-title">{{d.dName}}</h5>
+            <p class="card-text">Rs. {{d.price}}</p>
+            <a href="#" class="btn btn-primary" (click)="Display(d.dName)">Add to cart</a>
+        </div>
+    </div>
+</div> -->
+
+<div class="container">
+    <div *ngFor="let r of arrRes" class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ r.rName }}</h5>
+            <a  class="btn btn-primary" (click)="disp(r.id)">View More</a>
+        </div>
+    </div>
+    <br/>
+</div>
+
